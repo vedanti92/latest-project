@@ -40,17 +40,24 @@ a:hover {
 .intro {
     font-family: 'Architects Daughter', cursive;
     font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .bio {
     font-family: 'Architects Daughter', cursive;
     font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .img-thumbnail {
+    padding: 10px;
     float: left;
-    width: 30%;
-    height: 30%;
+    width: 15%;
+    height: 15%;
     border-radius: 50%;
 }
 
