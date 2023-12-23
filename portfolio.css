@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cabin&family=Dancing+Script&display=swap');
 
 * {
     margin: 20px;
+}
+
+.navbar {
+    list-style: none;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
 }
 
 .name {
