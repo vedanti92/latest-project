@@ -100,12 +100,22 @@ a:hover {
     text-align: left;
     margin-top: 40px;
     margin-left: 5%;
+    bottom: 5rem;
+    position: absolute;
 }
 
 .social {
     position: absolute;
     bottom: 1rem;
     align-items: center;
-    color: black;
     margin-left: 5%;
+}
+
+.username {
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.username:hover {
+    text-decoration: underline;
 }
