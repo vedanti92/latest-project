@@ -81,5 +81,8 @@ a:hover {
     font-size: large;
     margin-left: 10%;
     height: 50px;
-    width: 200px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkorange;
 }
