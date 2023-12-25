@@ -1,3 +1,7 @@
 function home() {
-    let section = document.getElementById("home")
+    let section1 = document.getElementById("home")
+}
+
+function about() {
+    let section2 = document.getElementById("about")
 }
