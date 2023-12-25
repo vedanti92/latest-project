@@ -94,6 +94,14 @@ a:hover {
     cursor: pointer;
 }
 
+.skills {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 5%;
+}
+
 .contact {
     font-family: 'Architects Daughter', cursive;
     font-size: 40px;
