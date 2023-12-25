@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     align-items: center;
+    overflow: auto;
 }
 
 .navbar {
@@ -79,7 +80,8 @@ a:hover {
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
     font-size: large;
-    margin-left: 20%;
+    margin-left: 5%;
+    margin-top: 20%;
     height: 50px;
     width: 250px;
     border: 2px solid darkorange;
@@ -98,7 +100,15 @@ a:hover {
     font-family: 'Architects Daughter', cursive;
     font-size: 40px;
     text-align: left;
-    margin-top: 90px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.projects {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 20px;
     margin-left: 5%;
 }
 
@@ -109,11 +119,9 @@ a:hover {
     margin-top: 40px;
     margin-left: 5%;
     bottom: 5rem;
-    position: absolute;
 }
 
 .social {
-    position: absolute;
     bottom: 1rem;
     align-items: center;
     margin-left: 5%;
