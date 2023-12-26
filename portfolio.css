@@ -146,9 +146,21 @@ a:hover {
     margin-left: 5%;
 }
 
+.social img {
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .username {
+    bottom: 1rem;
     color: black;
     font-family: 'Architects Daughter', cursive;
+    font-size: large;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .username:hover {
