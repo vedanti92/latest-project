@@ -166,3 +166,10 @@ a:hover {
 .username:hover {
     text-decoration: underline;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
