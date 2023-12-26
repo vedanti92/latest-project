@@ -173,3 +173,23 @@ a:hover {
     justify-content: space-around;
     flex-flow: wrap;
 }
+
+.skill-box {
+    margin: 5%;
+    justify-content: center;
+}
+
+.skill-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+}
