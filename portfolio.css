@@ -6,25 +6,44 @@
     overflow: auto;
 }
 
-.navbar {
-    list-style: none;
+.logo {
+    color: white;
+    padding-left: 20px;
     font-family: 'Cabin', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    width: 100%;
-    overflow: hidden;
-    position: sticky;
+    letter-spacing: 1px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 30px;
 }
 
-a{
-    position: sticky;
-    margin: 0 25px;
-    float: left;
-    display: flex;
-    padding: 10px;
+.v {
+    color: darkorange;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.navbar ul{
+    list-style: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar a {
     text-decoration: none;
     color: white;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
     font-size: 20px;
 }
 
