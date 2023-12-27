@@ -148,8 +148,8 @@ a:hover {
 
 .social img {
     margin: 20px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -180,6 +180,14 @@ a:hover {
     width: 300px;
     align-items: center;
     text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.skill-box:hover {
+    background-color: rgb(233, 233, 233);
+    transform: translateY(-10px);
 }
 
 .skill-title {
