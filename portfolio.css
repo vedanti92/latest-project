@@ -202,10 +202,47 @@ a:hover {
 
 .project {
     margin-top: 5%;
-    background-color: lightgray;
+    background-color: rgb(233, 233, 233);
     padding: 40px;
     justify-content: center;
-    width: 300px;
-    align-items: center;
-    text-align: center;
+    width: 270px;
+    height: 270px;
+    border-radius: 5px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.project-name {
+    font-family: 'Cabin', sans-serif;
+    color: blueviolet;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.description {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.project img {
+    width: 50px;
+    height: 50px;
+}
+
+.project a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    display: inline-block;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 15px;
+}
+
+.project a:hover {
+    color: blue;
+}
+
+.project:hover {
+    background-color: darkorange;
+    transform: translateY(-10px);
 }
