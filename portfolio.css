@@ -201,7 +201,11 @@ a:hover {
 }
 
 .project {
-    margin: 5%;
+    margin-top: 5%;
     background-color: lightgray;
     padding: 40px;
+    justify-content: center;
+    width: 300px;
+    align-items: center;
+    text-align: center;
 }
