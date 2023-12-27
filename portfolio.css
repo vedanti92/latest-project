@@ -199,3 +199,9 @@ a:hover {
     width: 100px;
     height: 100px;
 }
+
+.project {
+    margin: 5%;
+    background-color: lightgray;
+    padding: 40px;
+}
